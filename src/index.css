@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  min-height: 100vh;
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1 1 0%;
+  padding: 0 10px;
+  color: white;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-1 input {
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 50px;
+  border: none;
+  border: 2px solid rgb(210, 202, 202);
+  background-color: silver;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+.section-1 input::placeholder {
+  color: white;
+}
+.section-1 .loading {
+  font-weight: bold;
+  font-size: 20px;
+}
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section-2 .city {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.section-2 .temp {
+  font-weight: bold;
+  font-size: 70px;
+  margin: 0;
+}
+.section-2 .weather {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.section-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  background-color: rgb(146, 143, 143, 0.5);
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+}
