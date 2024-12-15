@@ -59,6 +59,7 @@ body {
 .section-2 .weather {
   font-weight: bold;
   font-size: 24px;
+  transform: rotate(270deg);
 }
 
 .section-3 {
